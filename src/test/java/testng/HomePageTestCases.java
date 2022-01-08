@@ -10,7 +10,7 @@ public class HomePageTestCases  {
 	@BeforeMethod
 	public void beforeMethod()
 	{
-		googleHomepage.launchBrowserWithFirefox();
+		googleHomepage.launchBrowser();
 	}
 	
 	@Test
